@@ -10,8 +10,6 @@ export default function Menu ({pizzas}) {
 
           <div className={css.heading}>
             <span>OUR MENU</span>
-            <span>MKNKNBK</span>
-            <span>NN:NNK:NJNKKJ</span>
           </div>
         
         <div className={css.menu}>

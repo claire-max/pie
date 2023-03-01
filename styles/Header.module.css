@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    background-color: black;
+    background-color: #d53f40;
     position: sticky; top: 0;
 }
 
@@ -34,7 +34,7 @@
 
 .menu>li:hover {
    cursor: pointer;
-   color:darkgreen;
+   color: #ffe398;
    align-items: center;
 }
 
@@ -56,7 +56,7 @@
 .badge {
     position: absolute;
     display: flex;
-    background-color: red;
+    background-color: black;
     color:white;
     border-radius: 50% ;
     width:20px;

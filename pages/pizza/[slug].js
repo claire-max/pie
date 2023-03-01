@@ -47,8 +47,10 @@ export default function Pizza({ pizza }) {
   <div className={css.right}>
     <span>{pizza.name}</span>
     <span>{pizza.details}</span>
-
-    <span>$ {pizza.price[Size]}</span>
+    <span>
+            <span style={{ color: "#d53f40" }}>$</span>{" "}
+            {pizza.price[Size]}
+    </span>
     <div className={css.size}>
         <span>Size</span>
     <div className={css.sizeVariants}>

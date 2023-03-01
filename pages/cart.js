@@ -108,7 +108,7 @@ export default function Cart() {
                                     </td>
 
                                     <td style={{
-                                        color: "green",
+                                        color: "#d53f40",
                                         cursor: "pointer"
                                     }}
                                     onClick={()=>handleRemove(i)}

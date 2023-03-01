@@ -1,5 +1,6 @@
 .container {
     contain: content;
+    background-color: lightcoral;
 }
 .heading{
     display: flex;
