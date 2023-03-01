@@ -1,6 +1,6 @@
 .container {
     contain: content;
-    background-color: lightcoral;
+   
 }
 .heading{
     display: flex;
@@ -12,11 +12,12 @@
 
 .heading>:nth-child(1)
 {
-    color: var(--themeRed);
-    font-size: 1rem;
+    
+    font-size: 1.5rem;
 }
 .heading>:nth-child(2),.heading>:nth-child(3){
     font-size: 2rem;
+    color: #d53f40;
 }
 
 
@@ -26,6 +27,8 @@
     gap: 3rem;
     align-items: center;
     justify-content: center;
+    
+   
 }
 .feature{
     display: flex;
@@ -33,6 +36,7 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    
 }
 .ImageWrapper{
     width: 10rem;
@@ -44,7 +48,6 @@ font-weight: bold;
 }
 .feature>:nth-child(3)
 {
-    color: var(--gray);
     word-wrap: break-word;
     width: 20rem;
     text-align: center;

@@ -3,7 +3,8 @@
     flex-direction: column;
     gap: 3rem;
     margin-top: 6rem;
-    /* background-color: black; */
+    background-color:  #ffe398;
+    padding-bottom: 4rem;
 }
 
 .heading {

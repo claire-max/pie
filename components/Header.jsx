@@ -17,7 +17,7 @@ export default function Header () {
   return(
     <div className={css.header}>
      <div className={css.logo}>
-     <Image src={Logo} alt="logo" width={70} height={60} />
+     <Image src={Logo} alt="logo" width={80} height={70} />
         
     </div>
 

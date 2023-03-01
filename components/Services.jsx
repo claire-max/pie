@@ -7,9 +7,10 @@ export default function Services() {
   return (
     <>
     <div className={css.container}>
+      <br/>
       <div className={css.heading}>
         <span>WHAT WE SERVE</span>
-        <span>Your Favourite Food</span>
+        <span>Your Favorite Food</span>
         <span>Delivery Partner</span>
       </div>
 
@@ -19,23 +20,23 @@ export default function Services() {
             <Image src={s1} alt="s1" objectFit="cover" layout="intrinsic" />
           </div>
           <span>Easy to Order</span>
-          <span>You only need a few steps in food ordering</span>
+          <span>Only a few steps for ordering</span>
         </div>
 
         <div className={css.feature}>
           <div className={css.ImageWrapper}>
             <Image src={s2} alt="s1" objectFit="cover" layout="intrinsic" />
           </div>
-          <span>Easy to Order</span>
-          <span>Delivery that is always on time even faster</span>
+          <span>Fast Delivery</span>
+          <span>Delivery that is always on time</span>
         </div>
 
         <div className={css.feature}>
           <div className={css.ImageWrapper}>
             <Image src={s3} alt="s1" objectFit="cover" layout="intrinsic" />
           </div>
-          <span>Easy to Order</span>
-          <span>Not only fast for us, qulity is also number one</span>
+          <span>Best Quality</span>
+          <span>Not only fast, but the highest quality</span>
         </div>
       </div>
       </div>

@@ -23,6 +23,7 @@ export default function Home({pizzas}) {
         <br/>
         <Services/>
         <Menu pizzas={pizzas}/>
+       
        </main>
       
       </div>
